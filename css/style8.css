@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+/*@font-face {*/
+/*    font-family: 'montserratbold';*/
+/*    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),*/
+/*    url('../fonts/montserrat-bold-webfont.woff') format('woff');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'montserratregular';*/
+/*    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),*/
+/*    url('../fonts/montserrat-regular-webfont.woff') format('woff');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+
+/*}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    color: #000;
+    font: 400 14px/24px 'Roboto Slab', "Times New Roman", Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main_banner {
+    min-height: 100vh;
+    background: url("../images/Home_Background.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 0;
+}
+
+.logo {
+    font: 700 24px/36px 'Montserrat', Arial, Tahoma, sans-serif;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.navigation a {
+    color: #fff;
+    font: 400 14px/24px 'Montserrat', Arial, Tahoma, sans-serif;
+    padding: 5px 13px;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+
+}
+
+.navigation a:last-child {
+    padding-right: 0;
+}
+
+.header{
+  padding: 50px 75px;
+}
+
+
+.banner_text{
+  color: #fff;
+  text-align: center;
+  padding: 245px 0 0 0;
+   font: 400 20px/48px 'Montserrat', Arial, Tahoma, sans-serif;
+
+}
+
+
+h1{
+   font: 400 20px/48px 'Montserrat', Arial, Tahoma, sans-serif;
+   font-size: 48px;
+   font-weight: bold;
+}
+
+h3{
+  margin: 15px;
+     font: 400 20px/48px 'Roboto Slab', "Times New Roman", Times, serif;
+       font-weight: bold;
+}
+
+.knopka{
+  color: #fff;
+  font: 400 16px/20px 'Montserrat', Arial, Tahoma, sans-serif;
+}
+
+.knoopka{
+  border: 3px solid #fff;
+  margin: 50px 850px;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  font-weight: bold;
+}
